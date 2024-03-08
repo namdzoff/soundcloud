@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+header > .logo > img {
+    width: 150px;
+    height: 150px;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 28px 17px;
+}
+
+.banner > img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+nav {
+    clear: both;
+
+}
+nav div#subnav {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div#subnav>div {
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 34px;
+    width: 380px;
+    border: 0.5px solid #CED2DD;
+    border-radius: 5px;
+}
+nav div#subnav>div input[type=text] {
+    float: left;
+    height: 29px;
+    width: 250px;
+    font-size: 14px;
+    border: none;
+}
+nav div#subnav>div input[type=submit] {
+    float: right;
+    height: 100%;
+    width: 80px;
+    background: #F7F2E7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0.5px solid #CED2DD;
+    font-size: 14px;
+}
+nav div#subnav>div input[type=submit]:hover {
+    cursor: pointer;
+}
+.menu-con {
+    width: 80%;
+    margin: 0 auto 0;
+}
+section {
+    width: 100%;
+}
+.baihat{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .tungbaihat {
+      width: 137px;
+      min-height: 150px;
+      border: 1px solid #cccccc;
+      box-shadow: 4px 5px 5px black;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  .tungbaihat>img{
+      width: 100%;
+      max-height: 170px;
+      padding: 10px;
+      transition: all 0.4s ease;
+  
+  }
+  .tungbaihat>img:hover{
+      transform: scale(1.2);
+  }
+  .tungbaihat>h4{
+      font-size: 15px;
+      font-weight: bold;
+      padding: 8px;
+  }
+  .tungbaihat>p{
+      
+      padding: 9px;
+      font-weight: bold;
+  }
+  h2 {
+    padding-top: 10px;
+  }
+  .banner2 > img {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+  .cachtai > .banner2 p {
+    top: -420px;
+    left: 777px;
+    font-size: 30px;
+    position: relative;
+}
+.cachtai > .banner2 > a {
+    position: relative;
+    top: -410px;
+    left: 775px;  
+}
+.subnav2 {
+    width: 100%;
+}
+.subnav2 > input[type="submit"] {
+    font-weight: bold;
+    float: right;
+    padding: 15px;
+    margin-top: 6px;
+    border-radius: 5px;
+    top: -290px;
+    left: -704px;
+    position: relative;
+}
+.subnav2 > input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+.subnav2 > h2 {
+    position: relative;
+    top: -300px;
+    left: 10px;
+}
+footer {
+    float: left;
+    width: 100%;
+    background-color: #333;
+    min-height: 150px;
+}
+.row {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.boxcenter2 {
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1 {
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter2 {
+    width: 28%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter3 {
+    width: 50%;
+    float: left;
+}
+.color {
+    color: #CCC;
+}
+.margin {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer a {
+    color: #CCC;
+    text-decoration: none;
+    margin-left: 20px;
+}
+footer a:hover {
+    color: #CCC;
+    text-decoration: underline;
+}
